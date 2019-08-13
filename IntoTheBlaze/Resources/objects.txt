@@ -1,0 +1,681 @@
+[
+  {
+    "name": "barrel_1_top",
+    "type": "explosive",
+    "fire": {
+      "type": "B",
+      "maxIntensity": 200,
+      "area": {
+        "type": "circ",
+        "radius": 12
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 12
+    }]
+  },
+  {
+    "name": "barrel_2_top",
+    "type": "explosive",
+    "fire": {
+      "type": "B",
+      "maxIntensity": 200,
+      "area": {
+        "type": "circ",
+        "radius": 12
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 12
+    }]
+  },
+  {
+    "name": "barrel_3_top",
+    "type": "explosive",
+    "fire": {
+      "type": "B",
+      "maxIntensity": 200,
+      "area": {
+        "type": "circ",
+        "radius": 12
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 12
+    }]
+  },
+  {
+    "name": "barrel_1_side",
+    "type": "explosive",
+    "fire": {
+      "type": "B",
+      "maxIntensity": 200,
+      "area": {
+        "type": "rect",
+        "width": 32,
+        "height": 24
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 32,
+      "height": 24
+    }]
+  },
+  {
+    "name": "barrel_2_side",
+    "type": "explosive",
+    "fire": {
+      "type": "B",
+      "maxIntensity": 200,
+      "area": {
+        "type": "rect",
+        "width": 32,
+        "height": 24
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 32,
+      "height": 24
+    }]
+  },
+  {
+    "name": "barrel_3_side",
+    "type": "explosive",
+    "fire": {
+      "type": "B",
+      "maxIntensity": 200,
+      "area": {
+        "type": "rect",
+        "width": 32,
+        "height": 24
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 32,
+      "height": 24
+    }]
+  },
+  {
+    "name": "bush_1",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 250,
+      "area": {
+        "type": "circ",
+        "radius": 16
+      }
+    },
+    "hpmin": 225,
+    "hpmax": 275,
+    "solid": false,
+    "width": 64,
+    "height": 64,
+    "zheight": 1,
+    "cost": 50,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 16
+    }]
+  },
+  {
+    "name": "bush_2",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 250,
+      "area": {
+        "type": "circ",
+        "radius": 16
+      }
+    },
+    "hpmin": 225,
+    "hpmax": 275,
+    "solid": false,
+    "width": 64,
+    "height": 64,
+    "zheight": 1,
+    "cost": 50,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 16
+    }]
+  },
+  {
+    "name": "bush_3",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 250,
+      "area": {
+        "type": "circ",
+        "radius": 16
+      }
+    },
+    "hpmin": 225,
+    "hpmax": 275,
+    "solid": false,
+    "width": 64,
+    "height": 64,
+    "zheight": 1,
+    "cost": 50,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 16
+    }]
+  },
+  {
+    "name": "cardboard_box",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "rect",
+        "width": 26,
+        "height": 18
+      }
+    },
+    "hpmin": 100,
+    "hpmax": 150,
+    "solid": false,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 10,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 26,
+      "height": 18
+    }]
+  },
+  {
+    "name": "crate",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 160,
+      "area": {
+        "type": "rect",
+        "width": 32,
+        "height": 32
+      }
+    },
+    "hpmin": 450,
+    "hpmax": 550,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 150,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 32,
+      "height": 32
+    }]
+  },
+  {
+    "name": "fireworks_box",
+    "type": "fireworks",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "rect",
+        "width": 26,
+        "height": 18
+      }
+    },
+    "hpmin": 150,
+    "hpmax": 200,
+    "solid": false,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 250,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 26,
+      "height": 18
+    }]
+  },
+  {
+    "name": "fireworks_box_open",
+    "type": "fireworks",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "rect",
+        "width": 26,
+        "height": 18
+      }
+    },
+    "hpmin": 150,
+    "hpmax": 200,
+    "solid": false,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 250,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 32,
+      "height": 24
+    }]
+  },
+  {
+    "name": "hydrant",
+    "type": "hydrant",
+    "agent": "water",
+    "width": 32,
+    "height": 32,
+    "solid": true,
+    "zheight": 1,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 9
+    }]
+  },
+  {
+    "name": "hydrant_wall",
+    "type": "hydrant",
+    "agent": "water",
+    "width": 32,
+    "height": 32,
+    "solid": false,
+    "zheight": 2,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": -12 },
+      "width": 32,
+      "height": 8
+    }]
+  },
+  {
+    "name": "chair",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 120,
+      "area": {
+        "type": "rect",
+        "width": 22,
+        "height": 22
+      }
+    },
+    "hpmin": 250,
+    "hpmax": 300,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 50,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 22,
+      "height": 22
+    }]
+  },
+  {
+    "name": "chair_2",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "circ",
+        "radius": 10
+      }
+    },
+    "hpmin": 300,
+    "hpmax": 350,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 10
+    }]
+  },
+  {
+    "name": "paper_box",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "rect",
+        "width": 26,
+        "height": 18
+      }
+    },
+    "hpmin": 200,
+    "hpmax": 250,
+    "solid": false,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 75,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 32,
+      "height": 24
+    }]
+  },
+  {
+    "name": "plant",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "circ",
+        "radius": 8
+      }
+    },
+    "hpmin": 150,
+    "hpmax": 200,
+    "solid": false,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 50,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 8
+    }]
+  },
+  {
+    "name": "table",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 200,
+      "area": {
+        "type": "rect",
+        "width": 64,
+        "height": 32
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 64,
+    "height": 32,
+    "zheight": 2,
+    "cost": 100,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 64,
+      "height": 32
+    }]
+  },
+  {
+    "name": "table_2",
+    "type": "normal",
+    "fire": {
+      "type": "C",
+      "maxIntensity": 200,
+      "area": {
+        "type": "rect",
+        "width": 64,
+        "height": 32
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 64,
+    "height": 32,
+    "zheight": 2,
+    "cost": 400,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 64,
+      "height": 32
+    }]
+  },
+  {
+    "name": "table_3",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 200,
+      "area": {
+        "type": "rect",
+        "width": 64,
+        "height": 32
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 64,
+    "height": 32,
+    "zheight": 2,
+    "cost": 300,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 64,
+      "height": 32
+    }]
+  },
+  {
+    "name": "table_4",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 200,
+      "area": {
+        "type": "rect",
+        "width": 64,
+        "height": 32
+      }
+    },
+    "hpmin": 350,
+    "hpmax": 450,
+    "solid": true,
+    "width": 64,
+    "height": 32,
+    "zheight": 2,
+    "cost": 200,
+    "collisionMasks": [{
+      "type": "rect",
+      "offset": { "x": 0, "y": 0 },
+      "width": 64,
+      "height": 32
+    }]
+  },
+  {
+    "name": "trash",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "circ",
+        "radius": 12
+      }
+    },
+    "hpmin": 100,
+    "hpmax": 200,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 10,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 12
+    }]
+  },
+  {
+    "name": "trash_2",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 100,
+      "area": {
+        "type": "circ",
+        "radius": 12
+      }
+    },
+    "hpmin": 100,
+    "hpmax": 200,
+    "solid": true,
+    "width": 32,
+    "height": 32,
+    "zheight": 1,
+    "cost": 10,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 12
+    }]
+  },
+  {
+    "name": "tree_1",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 800,
+      "area": {
+        "type": "circ",
+        "radius": 45
+      }
+    },
+    "hpmin": 1000,
+    "hpmax": 1400,
+    "solid": true,
+    "width": 128,
+    "height": 128,
+    "zheight": 3,
+    "cost": 500,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 32
+    }]
+  },
+  {
+    "name": "tree_2",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 800,
+      "area": {
+        "type": "circ",
+        "radius": 45
+      }
+    },
+    "hpmin": 1000,
+    "hpmax": 1400,
+    "solid": true,
+    "width": 128,
+    "height": 128,
+    "zheight": 3,
+    "cost": 500,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 32
+    }]
+  },
+  {
+    "name": "tree_3",
+    "type": "normal",
+    "fire": {
+      "type": "A",
+      "maxIntensity": 800,
+      "area": {
+        "type": "circ",
+        "radius": 45
+      }
+    },
+    "hpmin": 1000,
+    "hpmax": 1400,
+    "solid": true,
+    "width": 128,
+    "height": 128,
+    "zheight": 3,
+    "cost": 500,
+    "collisionMasks": [{
+      "type": "circ",
+      "offset": { "x": 0, "y": 0 },
+      "radius": 32
+    }]
+  },
+]
